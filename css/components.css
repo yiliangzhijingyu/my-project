@@ -11,17 +11,17 @@
 .about-content { position: relative; z-index: 2; }
 
 /* section background images (hero, portfolio, blog, skills) */
-#home .hero, .hero.hero-bg-ave { position: relative; background-image: url('../../img/AVE.jpg'); background-repeat: no-repeat; background-position: center; background-attachment: fixed; background-size: cover; }
-#portfolio { position: relative; background-image: url('../../img/mjc.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover; }
-#blog { position: relative; background-image: url('../../img/猫.jpeg'); background-repeat: no-repeat; background-position: center; background-size: cover; }
-#skills { position: relative; background-image: url('../../img/出厂价.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover; }
+#home .hero, .hero.hero-bg-ave { position: relative; background-image: url('../img/AVE.jpg'); background-repeat: no-repeat; background-position: center; background-attachment: fixed; background-size: cover; }
+#portfolio { position: relative; background-image: url('../img/mjc.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover; }
+#blog { position: relative; background-image: url('../img/猫.jpeg'); background-repeat: no-repeat; background-position: center; background-size: cover; }
+#skills { position: relative; background-image: url('../img/出厂价.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover; }
 
 /* Contact background setup: pseudo-element with blur, plus gradient fallback */
 #contact { position: relative; overflow: hidden; }
 #contact::before {
 	content: '';
 	position: absolute; inset: 0;
-	background-image: url('../../img/明日方舟1.png');
+	background-image: url('../img/明日方舟1.png');
 	background-repeat: no-repeat; background-position: center; background-size: cover;
 	/* 取消虚化，改用降低亮度以确保文字可读 */
 	filter: brightness(0.55);
