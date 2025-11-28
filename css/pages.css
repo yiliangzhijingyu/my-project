@@ -1,0 +1,13 @@
+/* pages.css: 页面级样式（hero、page 标题等） */
+.page { display: none; padding: 4rem 0; min-height: 80vh; }
+.page.active { display: block; }
+
+.page-title { text-align: center; margin-bottom: 3rem; color: var(--primary-color); position: relative; }
+.page-title:after { content: ''; display: block; width: 80px; height: 3px; background: var(--secondary-color); margin: 10px auto; border-radius: 2px; }
+
+.hero { text-align: center; padding: 6rem 0; background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%); color: var(--light-text); border-radius: 0 0 50% 50% / 0 0 20% 20%; margin-bottom: 4rem; }
+
+.hero h1 { font-size: 3rem; margin-bottom: 1rem; }
+.hero p { font-size: 1.2rem; max-width: 600px; margin: 0 auto 2rem; }
+
+.intro-section p { max-width: 720px; margin: 0 auto; }

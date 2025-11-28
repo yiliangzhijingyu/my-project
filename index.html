@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>一两只鲸鱼 | 个人网站</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <span class="logo-icon">🐋</span>
+                    <span>一两只鲸鱼</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#" data-page="home">首页</a></li>
+                    <li><a href="#" data-page="about">关于我</a></li>
+                    <li><a href="#" data-page="portfolio">作品集</a></li>
+                    <li><a href="#" data-page="blog">博客</a></li>
+                    <li><a href="#" data-page="skills">技能</a></li>
+                    <li><a href="#" data-page="contact">联系我</a></li>
+                </ul>
+                <div class="hamburger">☰</div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 页面内容 -->
+    <main>
+        <!-- 首页 -->
+        <section id="home" class="page active">
+            <div class="hero hero-bg-ave">
+                <div class="overlay-dark" aria-hidden="true"></div>
+                <div class="container section-content">
+                    <h1>这是一两只鲸鱼的Page</h1>
+                    <p>一名充满创造力的设计师和开发者，专注于打造独特的数字体验</p>
+                    <a href="#" class="btn" data-page="about">了解更多</a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="intro-section">
+                    <h2 class="page-title">欢迎来到我的罗德岛</h2>
+                    <p>在这里，我将分享我的作品、思考和创意。像鲸鱼在深海中自由游弋一样，我在设计的海洋中探索无限可能。</p>
+                    <div class="text-center mt-3">
+                        <a href="#" class="btn" data-page="portfolio">查看作品</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 关于我 -->
+        <section id="about" class="page about-bg-lavender">
+            <div class="overlay" aria-hidden="true" style="background: rgba(255,255,255,0.1);"></div>
+            <div class="container">
+                <h2 class="page-title">关于我</h2>
+                <div class="about-content">
+                    <div class="profile-img">
+                        <img class="profile-photo" src="../img/丰川祥子.jpg" alt="丰川祥子">
+                    </div>
+                    <div class="about-text">
+                        <h3>你好，我是"一两只鲸鱼"</h3>
+                        <p>我是一名充满热情的设计师和前端开发者，专注于创造美观且功能强大的数字体验。我的设计理念源于对自然之美的欣赏，特别是海洋生物的自由与优雅。</p>
+                        <p>在过去的五年里，我参与了多个跨领域项目，从品牌设计到用户体验设计，再到前端开发。我相信好的设计不仅仅是美观，更重要的是解决问题和传达价值。</p>
+                        <p>当我不在设计或编码时，我喜欢阅读、摄影和探索大自然。这些爱好不断激发我的创造力，让我在工作中保持新鲜视角。</p>
+                        <div class="mt-2">
+                            <a href="#" class="btn" data-page="contact">联系我</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 作品集 -->
+        <section id="portfolio" class="page">
+            <div class="overlay-dark" aria-hidden="true"></div>
+            <div class="container section-content">
+                <h2 class="page-title">作品集</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item" data-project="1">
+                        <div class="portfolio-img">🌊</div>
+                        <div class="portfolio-content">
+                            <h3>海洋保护网站</h3>
+                            <p>为海洋保护组织设计的响应式网站，强调用户体验和视觉冲击力。</p>
+                            <button class="btn-view">查看详情</button>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-project="2">
+                        <div class="portfolio-img">🎨</div>
+                        <div class="portfolio-content">
+                            <h3>创意品牌设计</h3>
+                            <p>为新兴科技公司打造的品牌形象系统，包括logo、色彩和视觉元素。</p>
+                            <button class="btn-view">查看详情</button>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-project="3">
+                        <div class="portfolio-img">📱</div>
+                        <div class="portfolio-content">
+                            <h3>移动应用界面</h3>
+                            <p>健康类移动应用的UI/UX设计，注重可用性和美观性的平衡。</p>
+                            <button class="btn-view">查看详情</button>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-project="4">
+                        <div class="portfolio-img">🖥️</div>
+                        <div class="portfolio-content">
+                            <h3>企业管理系统</h3>
+                            <p>为企业设计的内部管理系统，优化工作流程和提高效率。</p>
+                            <button class="btn-view">查看详情</button>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-project="5">
+                        <div class="portfolio-img">🛒</div>
+                        <div class="portfolio-content">
+                            <h3>电商平台设计</h3>
+                            <p>现代化电商平台UI设计，提升用户购物体验和转化率。</p>
+                            <button class="btn-view">查看详情</button>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-project="6">
+                        <div class="portfolio-img">📊</div>
+                        <div class="portfolio-content">
+                            <h3>数据可视化系统</h3>
+                            <p>企业级数据可视化平台，将复杂数据转化为直观图表。</p>
+                            <button class="btn-view">查看详情</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 项目详情模态框 -->
+        <div id="projectModal" class="modal" role="dialog" aria-hidden="true" aria-labelledby="projectModalLabel">
+            <div class="modal-content">
+                <button class="close" aria-label="关闭项目详情">&times;</button>
+                <div id="modal-body"></div>
+            </div>
+        </div>
+
+        <!-- 博客 -->
+        <section id="blog" class="page">
+            <div class="overlay-dark" aria-hidden="true"></div>
+            <div class="container section-content">
+                <h2 class="page-title">博客</h2>
+                <div class="blog-posts">
+                    <div class="blog-post" data-blog="1">
+                        <div class="blog-img">📝</div>
+                        <div class="blog-content">
+                            <h3>设计思维在数字产品中的应用</h3>
+                            <p>探索如何将设计思维方法论应用于数字产品开发过程，创造更人性化的用户体验。</p>
+                            <div class="blog-meta">
+                                <span class="blog-date">2024-01-15</span>
+                                <span class="blog-category">设计思维</span>
+                            </div>
+                            <a href="#" class="read-more">阅读更多 →</a>
+                        </div>
+                    </div>
+                    <div class="blog-post" data-blog="2">
+                        <div class="blog-img">🎨</div>
+                        <div class="blog-content">
+                            <h3>色彩心理学在UI设计中的重要性</h3>
+                            <p>了解色彩如何影响用户情绪和行为，以及如何在界面设计中有效运用色彩。</p>
+                            <div class="blog-meta">
+                                <span class="blog-date">2024-01-10</span>
+                                <span class="blog-category">UI设计</span>
+                            </div>
+                            <a href="#" class="read-more">阅读更多 →</a>
+                        </div>
+                    </div>
+                    <div class="blog-post" data-blog="3">
+                        <div class="blog-img">🚀</div>
+                        <div class="blog-content">
+                            <h3>2024年网页设计趋势预测</h3>
+                            <p>分析当前设计趋势，预测未来一年可能主导网页设计的新兴风格和技术。</p>
+                            <div class="blog-meta">
+                                <span class="blog-date">2024-01-05</span>
+                                <span class="blog-category">设计趋势</span>
+                            </div>
+                            <a href="#" class="read-more">阅读更多 →</a>
+                        </div>
+                    </div>
+                    <div class="blog-post" data-blog="4">
+                        <div class="blog-img">💻</div>
+                        <div class="blog-content">
+                            <h3>响应式设计的最佳实践</h3>
+                            <p>分享在多设备时代创建完美响应式网站的关键技巧和实用策略。</p>
+                            <div class="blog-meta">
+                                <span class="blog-date">2023-12-28</span>
+                                <span class="blog-category">前端开发</span>
+                            </div>
+                            <a href="#" class="read-more">阅读更多 →</a>
+                        </div>
+                    </div>
+                    <div class="blog-post" data-blog="5">
+                        <div class="blog-img">🧠</div>
+                        <div class="blog-content">
+                            <h3>用户体验设计的心理学原理</h3>
+                            <p>探讨认知心理学如何影响用户界面设计，以及如何利用这些原理提升产品体验。</p>
+                            <div class="blog-meta">
+                                <span class="blog-date">2023-12-20</span>
+                                <span class="blog-category">用户体验</span>
+                            </div>
+                            <a href="#" class="read-more">阅读更多 →</a>
+                        </div>
+                    </div>
+                    <div class="blog-post" data-blog="6">
+                        <div class="blog-img">⚡</div>
+                        <div class="blog-content">
+                            <h3>前端性能优化完全指南</h3>
+                            <p>从代码优化到资源加载，全面提升网站性能的实用技巧和工具推荐。</p>
+                            <div class="blog-meta">
+                                <span class="blog-date">2023-12-15</span>
+                                <span class="blog-category">性能优化</span>
+                            </div>
+                            <a href="#" class="read-more">阅读更多 →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 博客详情模态框 -->
+        <div id="blogModal" class="modal" role="dialog" aria-hidden="true" aria-labelledby="blogModalLabel">
+            <div class="modal-content blog-modal-content">
+                <button class="close" aria-label="关闭博客详情">&times;</button>
+                <div id="blog-modal-body"></div>
+            </div>
+        </div>
+
+        <!-- 技能 -->
+        <section id="skills" class="page">
+            <div class="overlay-dark" aria-hidden="true"></div>
+            <div class="container section-content">
+                <h2 class="page-title">技能与专长</h2>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>设计技能</h3>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>UI/UX设计</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level w-90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>品牌设计</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level w-85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>插画</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level w-75"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>技术技能</h3>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>HTML/CSS</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level w-95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>JavaScript</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level w-85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>React</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level w-80"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>软技能</h3>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>沟通能力</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level w-90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>团队协作</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level w-88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>问题解决</span>
+                                <span>92%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level w-92"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 联系我 -->
+        <section id="contact" class="page">
+                <div class="container" style="position: relative;">
+                <h2 class="page-title">联系我</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3>让我们开始对话</h3>
+                        <p>如果您有项目想法或合作意向，请随时与我联系。我期待听到您的声音！</p>
+                        <div class="mt-2">
+                            <p><strong>邮箱:</strong> hello@yiliangzhijingyu.com</p>
+                            <p><strong>电话:</strong> +86 138 1145 1400</p>
+                            <p><strong>地址:</strong> 罗德岛</p>
+                        </div>
+                        <div class="social-links social-links-left">
+                            <a href="https://ak.hypergryph.com/" target="_blank" title="明日方舟官方">舟</a>
+                            <a href="https://weibo.com/" target="_blank" title="微博">博</a>
+                            <a href="https://www.zhihu.com/" target="_blank" title="知乎">知</a>
+                            <a href="https://github.com/" target="_blank" title="GitHub">Git</a>
+                        </div>
+                        <!-- 装饰图片（右下） -->
+                        <img class="contact-decoration" src="../img/th.png" alt="th decoration" />
+                    </div>
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">姓名</label>
+                                <input type="text" id="name" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">邮箱</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">主题</label>
+                                <input type="text" id="subject" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">消息</label>
+                                <textarea id="message" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn">发送消息</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>一两只鲸鱼</h3>
+                    <p>创造独特数字体验的设计师和开发者</p>
+                </div>
+                <div class="footer-section">
+                    <h3>快速链接</h3>
+                    <ul class="list-none">
+                        <li><a href="#" data-page="home">首页</a></li>
+                        <li><a href="#" data-page="about">关于我</a></li>
+                        <li><a href="#" data-page="portfolio">作品集</a></li>
+                        <li><a href="#" data-page="blog">博客</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>联系我</h3>
+                    <p>邮箱: hello@yiliangzhijingyu.com</p>
+                    <p>电话: +86 138 1145 1400</p>
+                    <div class="social-links">
+                            <a href="https://ak.hypergryph.com/" target="_blank" title="明日方舟官方">舟</a>
+                            <a href="https://weibo.com/" target="_blank" title="微博">博</a>
+                            <a href="https://www.zhihu.com/" target="_blank" title="知乎">知</a>
+                            <a href="https://github.com/" target="_blank" title="GitHub">Git</a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 一两只鲸鱼. 保留所有权利.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // 页面导航功能
+        document.addEventListener('DOMContentLoaded', function() {
+            // 获取所有页面和导航链接
+            const pages = document.querySelectorAll('.page');
+            // 仅选择带有 data-page 的链接，避免阻止 footer 的外部链接（如社交网址）
+            const navLinks = document.querySelectorAll('.nav-links a, .footer-section a[data-page], .btn[data-page]');
+            const hamburger = document.querySelector('.hamburger');
+            const navMenu = document.querySelector('.nav-links');
+            
+            // 显示指定页面，隐藏其他页面
+            function showPage(pageId) {
+                pages.forEach(page => {
+                    page.classList.remove('active');
+                });
+                document.getElementById(pageId).classList.add('active');
+                
+                // 在移动设备上关闭菜单
+                if (window.innerWidth <= 768) {
+                    navMenu.classList.remove('active');
+                }
+            }
+            
+            // 为所有导航链接添加点击事件
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const pageId = this.getAttribute('data-page');
+                    if (pageId) {
+                        showPage(pageId);
+                    }
+                });
+            });
+            
+            // 汉堡菜单点击事件
+            hamburger.addEventListener('click', function() {
+                navMenu.classList.toggle('active');
+            });
+            
+            // 联系表单提交事件
+            const contactForm = document.getElementById('contactForm');
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    alert('感谢您的留言！我会尽快回复您。');
+                    contactForm.reset();
+                });
+            }
+            
+            // 项目详情数据
+            const projectDetails = {
+                1: {
+                    title: "海洋保护网站",
+                    description: "为国际海洋保护组织设计的全功能响应式网站，致力于提高公众对海洋环境保护的意识。",
+                    fullDescription: "这个项目是与国际海洋保护组织合作，旨在通过数字平台提高公众对海洋环境保护的认识。网站采用了现代化的设计语言，结合海洋元素，创造出身临其境的用户体验。",
+                    features: ["响应式设计", "交互式地图", "捐赠系统", "多语言支持", "内容管理系统"],
+                    technologies: ["React", "Node.js", "MongoDB", "AWS", "Figma"],
+                    timeline: "3个月",
+                    category: "网站开发",
+                    image: "🌊"
+                },
+                2: {
+                    title: "创意品牌设计",
+                    description: "为科技初创公司打造完整的品牌形象系统，建立独特的市场定位。",
+                    fullDescription: "为一家专注于人工智能的初创公司设计的完整品牌系统。从logo设计到色彩体系，再到视觉元素，我们创造了一个既专业又富有创新感的品牌形象。",
+                    features: ["Logo设计", "品牌色彩", "字体系统", "视觉元素", "品牌指南"],
+                    technologies: ["Adobe Illustrator", "Photoshop", "InDesign", "Figma"],
+                    timeline: "2个月",
+                    category: "品牌设计",
+                    image: "🎨"
+                },
+                3: {
+                    title: "移动应用界面",
+                    description: "健康管理类移动应用的UI/UX设计，提升用户参与度和使用体验。",
+                    fullDescription: "这款健康管理应用旨在帮助用户追踪健康数据、设定健身目标和管理日常饮食。设计重点在于简化复杂的数据展示，创造愉悦的用户体验。",
+                    features: ["健康数据追踪", "个性化推荐", "社交功能", "数据可视化", "推送通知"],
+                    technologies: ["Figma", "Sketch", "Principle", "React Native"],
+                    timeline: "4个月",
+                    category: "UI/UX设计",
+                    image: "📱"
+                },
+                4: {
+                    title: "企业管理系统",
+                    description: "为企业设计的内部管理系统，优化工作流程和提高团队协作效率。",
+                    fullDescription: "这个企业资源规划系统整合了项目管理、人力资源、财务管理和客户关系管理等功能，为企业提供一体化的解决方案。",
+                    features: ["项目管理", "人力资源管理", "财务管理", "客户关系管理", "数据分析"],
+                    technologies: ["Vue.js", "Spring Boot", "MySQL", "Docker", "Redis"],
+                    timeline: "6个月",
+                    category: "系统开发",
+                    image: "🖥️"
+                },
+                5: {
+                    title: "电商平台设计",
+                    description: "现代化电商平台UI设计，提升用户购物体验和转化率。",
+                    fullDescription: "为时尚品牌设计的电商平台，专注于创造流畅的购物体验。从产品展示到结账流程，每个环节都经过精心设计。",
+                    features: ["产品展示", "购物车", "支付系统", "订单管理", "客户评价"],
+                    technologies: ["React", "Stripe API", "MongoDB", "Cloudinary", "Figma"],
+                    timeline: "5个月",
+                    category: "电商设计",
+                    image: "🛒"
+                },
+                6: {
+                    title: "数据可视化系统",
+                    description: "企业级数据可视化平台，将复杂数据转化为直观图表和仪表盘。",
+                    fullDescription: "这个数据可视化系统帮助企业管理者快速理解业务数据，通过交互式图表和实时仪表盘支持数据驱动的决策。",
+                    features: ["实时数据", "交互式图表", "自定义仪表盘", "数据导出", "权限管理"],
+                    technologies: ["D3.js", "Python", "PostgreSQL", "FastAPI", "Docker"],
+                    timeline: "4个月",
+                    category: "数据可视化",
+                    image: "📊"
+                }
+            };
+
+            // 模态框功能
+            const modal = document.getElementById('projectModal');
+            const modalBody = document.getElementById('modal-body');
+            const projectCloseBtn = document.querySelector('#projectModal .close');
+            const portfolioItems = document.querySelectorAll('.portfolio-item');
+            const viewButtons = document.querySelectorAll('.btn-view');
+
+            // 点击项目卡片或查看按钮打开模态框
+            portfolioItems.forEach(item => {
+                item.addEventListener('click', function(e) {
+                    if (!e.target.classList.contains('btn-view')) {
+                        const projectId = this.getAttribute('data-project');
+                        openProjectModal(projectId);
+                    }
+                });
+            });
+
+            viewButtons.forEach(button => {
+                button.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    const projectId = this.closest('.portfolio-item').getAttribute('data-project');
+                    openProjectModal(projectId);
+                });
+            });
+
+            // 关闭模态框
+            projectCloseBtn.addEventListener('click', closeModal);
+            modal.addEventListener('click', function(e) {
+                if (e.target === modal) {
+                    closeModal();
+                }
+            });
+
+            // 键盘事件（modal 级）
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape' && modal.getAttribute('aria-hidden') === 'false') {
+                    closeModal();
+                }
+            });
+
+            let lastFocused = null;
+
+            function openProjectModal(projectId) {
+                const project = projectDetails[projectId];
+                if (project) {
+                    modalBody.innerHTML = `
+                        <h2 id="projectModalLabel">${project.title}</h2>
+                        <div class="project-detail">
+                            <div style="font-size: 4rem; text-align: center; margin: 1rem 0;">${project.image}</div>
+                            <p>${project.fullDescription}</p>
+                            
+                            <div class="project-info">
+                                <div class="info-item">
+                                    <h4>项目类别</h4>
+                                    <p>${project.category}</p>
+                                </div>
+                                <div class="info-item">
+                                    <h4>开发周期</h4>
+                                    <p>${project.timeline}</p>
+                                </div>
+                                <div class="info-item">
+                                    <h4>使用技术</h4>
+                                    <p>${project.technologies.join(', ')}</p>
+                                </div>
+                            </div>
+                            
+                            <h3>主要功能</h3>
+                            <ul style="margin: 1rem 0; padding-left: 1.5rem;">
+                                ${project.features.map(function(feature){return '<li>' + feature + '</li>';}).join('')}
+                            </ul>
+                            
+                            <h3>项目成果</h3>
+                            <p>该项目成功提升了用户体验，获得了客户的高度评价，并在行业内产生了积极影响。</p>
+                        </div>
+                    `;
+                    modal.style.display = 'block';
+                    modal.setAttribute('aria-hidden', 'false');
+                    lastFocused = document.activeElement;
+                    projectCloseBtn.focus();
+                    document.body.style.overflow = 'hidden';
+                }
+            }
+
+            function closeModal() {
+                modal.style.display = 'none';
+                modal.setAttribute('aria-hidden', 'true');
+                document.body.style.overflow = 'auto';
+                if (lastFocused) { lastFocused.focus(); lastFocused = null; }
+            }
+
+            // 博客详情数据
+            const blogDetails = {
+                1: {
+                    title: "设计思维在数字产品中的应用",
+                    date: "2024-01-15",
+                    category: "设计思维",
+                    tags: ["设计思维", "用户体验", "产品设计", "创新"],
+                    content: `
+                        <div class="blog-detail">
+                            <div class="blog-header">
+                                <h1 id="blogModalLabel" class="blog-title">设计思维在数字产品中的应用</h1>
+                                <div class="blog-meta-large">
+                                    <span>发布日期: 2024-01-15</span>
+                                    <span>分类: 设计思维</span>
+                                    <span>阅读时间: 8分钟</span>
+                                </div>
+                                <div class="blog-tags">
+                                    <span class="blog-tag">设计思维</span>
+                                    <span class="blog-tag">用户体验</span>
+                                    <span class="blog-tag">产品设计</span>
+                                    <span class="blog-tag">创新</span>
+                                </div>
+                            </div>
+
+                            <div class="blog-image">📝</div>
+
+                            <div class="blog-content-large">
+                                <p>在当今快速发展的数字时代，设计思维已经成为创造成功数字产品的关键方法论。它不仅是一种设计方法，更是一种解决问题的思维方式。</p>
+
+                                <div class="blog-section">
+                                    <h3>什么是设计思维？</h3>
+                                    <p>设计思维是一种以用户为中心的问题解决方法论，它强调理解用户需求、挑战假设、重新定义问题，并通过原型制作和测试来创建创新解决方案。</p>
+                                    <p>这个过程通常包括五个阶段：共情、定义、构思、原型和测试。</p>
+                                </div>
+
+                                <div class="blog-section">
+                                    <h3>设计思维的五个阶段</h3>
+                                    <p><strong>1. 共情阶段：</strong>深入了解目标用户的需求、期望和行为模式。通过用户访谈、观察和体验地图等方法，真正理解用户的痛点。</p>
+                                    <p><strong>2. 定义阶段：</strong>基于用户洞察，明确定义要解决的核心问题。这个阶段需要将模糊的用户需求转化为清晰的设计挑战。</p>
+                                    <p><strong>3. 构思阶段：</strong>通过头脑风暴和其他创意技术，产生大量可能的解决方案。这个阶段强调数量胜过质量，鼓励跳出框架思考。</p>
+                                    <p><strong>4. 原型阶段：</strong>将最有前景的想法转化为具体的、可测试的原型。这些原型可以是线框图、交互原型或实体模型。</p>
+                                    <p><strong>5. 测试阶段：</strong>让真实用户测试原型，收集反馈并迭代改进。这个阶段是验证解决方案有效性的关键。</p>
+                                </div>
+
+                                <div class="blog-quote">
+                                    "设计思维的本质不是关于设计漂亮的产品，而是关于设计能够真正解决用户问题的产品。"
+                                </div>
+
+                                <div class="blog-section">
+                                    <h3>实际应用案例</h3>
+                                    <p>在我们最近的一个电商项目中，应用设计思维方法帮助我们将用户转化率提升了35%。通过深入的用户研究，我们发现用户在结账过程中遇到的主要障碍是复杂的注册流程。</p>
+                                    <p>通过快速原型制作和用户测试，我们开发了简化的访客结账流程，显著改善了用户体验。</p>
+                                </div>
+
+                                <div class="blog-section">
+                                    <h3>结语</h3>
+                                    <p>设计思维为数字产品开发提供了一个强大的框架，确保我们始终以用户为中心，创造出既有用又易用的产品。在当今竞争激烈的数字环境中，采用设计思维方法可能是区分优秀产品与普通产品的关键因素。</p>
+                                </div>
+                            </div>
+                        </div>
+                    `
+                },
+                2: {
+                    title: "色彩心理学在UI设计中的重要性",
+                    date: "2024-01-10",
+                    category: "UI设计",
+                    tags: ["色彩心理学", "UI设计", "用户体验", "视觉设计"],
+                    content: `
+                        <div class="blog-detail">
+                            <div class="blog-header">
+                                <h1 id="blogModalLabel" class="blog-title">色彩心理学在UI设计中的重要性</h1>
+                                <div class="blog-meta-large">
+                                    <span>发布日期: 2024-01-10</span>
+                                    <span>分类: UI设计</span>
+                                    <span>阅读时间: 6分钟</span>
+                                </div>
+                                <div class="blog-tags">
+                                    <span class="blog-tag">色彩心理学</span>
+                                    <span class="blog-tag">UI设计</span>
+                                    <span class="blog-tag">用户体验</span>
+                                    <span class="blog-tag">视觉设计</span>
+                                </div>
+                            </div>
+
+                            <div class="blog-image">🎨</div>
+
+                            <div class="blog-content-large">
+                                <p>色彩是UI设计中最具影响力的视觉元素之一。它不仅影响产品的美观度，更深刻地影响着用户的情感、行为和决策过程。</p>
+
+                                <div class="blog-section">
+                                    <h3>色彩的情感影响</h3>
+                                    <p>不同的颜色会引发不同的情感反应。例如，蓝色通常与信任、专业和冷静相关，这也是为什么许多科技和金融公司选择蓝色作为品牌色。</p>
+                                    <p>红色能够激发紧迫感和兴奋感，常用于促销和行动号召按钮。绿色则与成长、健康和自然相联系，常用于环保和健康相关产品。</p>
+                                </div>
+
+                                <div class="blog-section">
+                                    <h3>文化背景的重要性</h3>
+                                    <p>色彩的意义在不同文化中可能有很大差异。在设计全球化产品时，理解目标市场的文化色彩含义至关重要。</p>
+                                    <p>例如，在西方文化中，白色代表纯洁和婚礼，而在一些东方文化中，白色可能与丧葬相关。</p>
+                                </div>
+
+                                <div class="blog-quote">
+                                    "好的色彩选择可以让用户在不阅读文字的情况下理解界面的层次结构和功能重要性。"
+                                </div>
+
+                                <div class="blog-section">
+                                    <h3>实际应用技巧</h3>
+                                    <p><strong>1. 建立色彩层次：</strong>使用色彩来引导用户的注意力，重要的元素使用更醒目的颜色。</p>
+                                    <p><strong>2. 保持一致性：</strong>在整个产品中保持色彩使用的一致性，帮助用户建立心智模型。</p>
+                                    <p><strong>3. 考虑可访问性：</strong>确保色彩对比度符合WCAG标准，使色盲用户也能正常使用产品。</p>
+                                    <p><strong>4. 测试色彩方案：</strong>通过A/B测试验证色彩选择对用户行为的影响。</p>
+                                </div>
+                            </div>
+                        </div>
+                    `
+                },
+                3: {
+                    title: "2024年网页设计趋势预测",
+                    date: "2024-01-05",
+                    category: "设计趋势",
+                    tags: ["设计趋势", "网页设计", "2024", "创新"],
+                    content: `
+                        <div class="blog-detail">
+                            <div class="blog-header">
+                                <h1 id="blogModalLabel" class="blog-title">2024年网页设计趋势预测</h1>
+                                <div class="blog-meta-large">
+                                    <span>发布日期: 2024-01-05</span>
+                                    <span>分类: 设计趋势</span>
+                                    <span>阅读时间: 10分钟</span>
+                                </div>
+                                <div class="blog-tags">
+                                    <span class="blog-tag">设计趋势</span>
+                                    <span class="blog-tag">网页设计</span>
+                                    <span class="blog-tag">2024</span>
+                                    <span class="blog-tag">创新</span>
+                                </div>
+                            </div>
+
+                            <div class="blog-image">🚀</div>
+
+                            <div class="blog-content-large">
+                                <p>随着技术的不断发展和用户期望的提升，网页设计领域正在经历快速变革。以下是我们在2024年预计将主导网页设计的几个重要趋势。</p>
+
+                                <div class="blog-section">
+                                    <h3>1. AI驱动的个性化体验</h3>
+                                    <p>人工智能技术将使网站能够提供高度个性化的用户体验。基于用户行为、偏好和上下文，网站可以动态调整内容、布局和功能。</p>
+                                </div>
+
+                                <div class="blog-section">
+                                    <h3>2. 沉浸式3D元素</h3>
+                                    <p>随着WebGL和Three.js等技术的成熟，3D元素将在网页设计中变得更加普遍。这些元素可以创造深度感和沉浸感，提升用户参与度。</p>
+                                </div>
+
+                                <div class="blog-section">
+                                    <h3>3. 玻璃拟态设计</h3>
+                                    <p>玻璃拟态（Glassmorphism）将继续流行，这种设计风格通过半透明效果和背景模糊，创造出现代而精致的视觉体验。</p>
+                                </div>
+
+                                <div class="blog-quote">
+                                    "未来的网页设计将更加注重在美观性和功能性之间找到完美平衡，同时确保卓越的用户体验。"
+                                </div>
+
+                                <div class="blog-section">
+                                    <h3>4. 可持续网页设计</h3>
+                                    <p>环保意识的提升推动了可持续网页设计的发展。这包括优化网站性能减少能源消耗，以及选择环保的托管解决方案。</p>
+                                </div>
+
+                                <div class="blog-section">
+                                    <h3>5. 增强的可访问性</h3>
+                                    <p>可访问性将从"好有"变为"必须有"。设计师将更加注重创建对所有用户都友好的网站，包括残障用户。</p>
+                                </div>
+                            </div>
+                        </div>
+                    `
+                },
+                4: {
+                    title: "响应式设计的最佳实践",
+                    date: "2023-12-28",
+                    category: "前端开发",
+                    tags: ["响应式设计", "前端开发", "移动优先"],
+                    content: `<div class="blog-detail">响应式设计完整内容...</div>`
+                },
+                5: {
+                    title: "用户体验设计的心理学原理",
+                    date: "2023-12-20",
+                    category: "用户体验",
+                    tags: ["用户体验", "心理学", "认知科学"],
+                    content: `<div class="blog-detail">用户体验设计完整内容...</div>`
+                },
+                6: {
+                    title: "前端性能优化完全指南",
+                    date: "2023-12-15",
+                    category: "性能优化",
+                    tags: ["性能优化", "前端", "网站速度"],
+                    content: `<div class="blog-detail">性能优化完整内容...</div>`
+                }
+            };
+
+            // 博客模态框功能
+            const blogModal = document.getElementById('blogModal');
+            const blogModalBody = document.getElementById('blog-modal-body');
+            const blogCloseBtn = document.querySelector('#blogModal .close');
+            const blogPosts = document.querySelectorAll('.blog-post');
+            const readMoreLinks = document.querySelectorAll('.read-more');
+
+            // 点击博客文章打开模态框
+            blogPosts.forEach(post => {
+                post.addEventListener('click', function(e) {
+                    if (!e.target.classList.contains('read-more')) {
+                        const blogId = this.getAttribute('data-blog');
+                        openBlogModal(blogId);
+                    }
+                });
+            });
+
+            readMoreLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    const blogId = this.closest('.blog-post').getAttribute('data-blog');
+                    openBlogModal(blogId);
+                });
+            });
+
+            // 关闭博客模态框
+            blogCloseBtn.addEventListener('click', closeBlogModal);
+            blogModal.addEventListener('click', function(e) {
+                if (e.target === blogModal) {
+                    closeBlogModal();
+                }
+            });
+
+            // 键盘事件（modal 级）
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape' && blogModal.getAttribute('aria-hidden') === 'false') {
+                    closeBlogModal();
+                }
+            });
+
+            function openBlogModal(blogId) {
+                const blog = blogDetails[blogId];
+                if (blog) {
+                    blogModalBody.innerHTML = blog.content;
+                    blogModal.style.display = 'block';
+                    blogModal.setAttribute('aria-hidden', 'false');
+                    lastFocused = document.activeElement;
+                    blogCloseBtn.focus();
+                    document.body.style.overflow = 'hidden';
+                }
+            }
+
+            function closeBlogModal() {
+                blogModal.style.display = 'none';
+                blogModal.setAttribute('aria-hidden', 'true');
+                document.body.style.overflow = 'auto';
+                if (lastFocused) { lastFocused.focus(); lastFocused = null; }
+            }
+
+            // 默认显示首页
+            showPage('home');
+        });
+    </script>
+</body>
+</html>
